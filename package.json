@@ -1,0 +1,48 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "sail": "sudo ./vendor/bin/sail up -d",
+        "sail1": "sudo ./vendor/bin/sail up",
+        "sail-up-user": "./vendor/bin/sail up",
+        "sail-stop": "sudo ./vendor/bin/sail stop",
+        "work": "sudo ./vendor/bin/sail artisan queue:work",
+        "sail-work-user": "./vendor/bin/sail artisan queue:work"
+    },
+    "dependencies": {
+        "@inertiajs/inertia": "^0.11.1",
+        "@inertiajs/inertia-vue3": "^0.6.0",
+        "@material/data-table": "^14.0.0",
+        "@material/icon-button": "^14.0.0",
+        "bootstrap": "~5.1.0",
+        "composer": "^4.1.0",
+        "cropperjs": "^1.5.13",
+        "laravel-echo": "^1.15.2",
+        "pusher-js": "^8.3.0",
+        "socket.io-client": "^2.4.0"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.10.2",
+        "@vitejs/plugin-vue": "^3.0.1",
+        "axios": "^0.25",
+        "bootstrap": "^5.2.1",
+        "browser-sync": "^2.27.7",
+        "browser-sync-webpack-plugin": "2.3.0",
+        "laravel-mix": "^6.0.49",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.16.1",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "5.0.0",
+        "rtlcss": "^3.0",
+        "sass": "^1.32.11",
+        "sass-loader": "12.1.0",
+        "vue": "^3.2.37",
+        "vue-loader": "^16.8.3"
+    }
+}
